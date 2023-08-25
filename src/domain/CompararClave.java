@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CompararClave {
-    public static String clave;
+    private static String clave;
 
     public static String leerArchivo(File archivo) {
         try {
